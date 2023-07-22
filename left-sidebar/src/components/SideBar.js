@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { dataSidebar } from './DataSideBar';
 import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -8,6 +8,13 @@ export const SideBar = () => {
     const [open, setOpen] = useState(true);
     const navigate = useNavigate()
     const dispatch = useDispatch()
+    useEffect(()=>{
+      dispatch({
+        type :"path",
+        payload : "/dashboard"
+      })
+      navigate("/dashboard")
+    },[])
   return (
     // <div>Hello world</div>
     <div>
@@ -17,8 +24,8 @@ export const SideBar = () => {
       } bg-gray-900 h-screen p-5  pt-8 relative duration-300`}
     >
         <img
-          src="https://blogger.zilog.online/static/media/logo.436f1557.png"
-          className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
+          src={`${main.ImgUrl}${main.path}.png`} 
+          className={`absolute cursor-pointer -right-3 bg-gray-900 top-9 w-7 border-dark-purple
           border-2 rounded-full  ${!open && "rotate-180"}`}
           onClick={() => setOpen(!open)}
         />
@@ -29,7 +36,7 @@ export const SideBar = () => {
               open && "rotate-[360deg]"
             }`}
             onClick={()=>{
-              navigate("/")
+              navigate("/dashboard")
             }}
           />
         </div>
