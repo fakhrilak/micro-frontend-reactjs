@@ -32,10 +32,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
+    "modalian": "^0.1.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2",
     "react-redux": "^7.2.1",
+    "react-router-dom": "^6.14.2",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-promise-middleware": "^6.1.2",

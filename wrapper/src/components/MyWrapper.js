@@ -3,12 +3,12 @@ import { SideBar } from 'left_sidebar/SidebarComponent';
 import {Header} from 'header/Header'
 export const MyWrapper = (props) => {
   return (
-    <div className="w-full h-scree">
+    <div className="w-12/12 h-screen">
       <div className="flex">
           <SideBar/>
-        <div className="flex-1 p-7 bg-white h-screen">
+        <div className="w-full bg-white h-screen">
             <Header/>
-            <div className='h-2/12 w-12/12 m-auto overflow-scroll'>
+            <div className='w-12/12 m-auto h-84'>
                 {props.children}
             </div>     
         </div>

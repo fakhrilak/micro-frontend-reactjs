@@ -8,20 +8,26 @@ import store from "./redux/store"
 import {MyWrapper} from "wrapper/MyWrapper"
 import {DashBoard} from "dashboard/DashBoard"
 import {Content} from "contents/Content"
+import Modal from "./components/Modal/Modal";
+import NotFoundPage from "./pages/NotFoundPage";
+import About from "./pages/About";
+
 const App = () => {
   return (
-    <Provider store={store}>
+    <div>
+    <Modal/>
     <Router>
       <MyWrapper>
         <Routes>
           <Route exact path="/dashboard" element={<DashBoard/>} />
-          {/* <Route exact path="/crud" element={<Content/>} /> */}
-          <Route path="*" element={<div>Not found</div>} />
+          <Route exact path="/crud" element={<Content/>} />
+          <Route exact path="/about" element={<About/>}/>
+          <Route path="*" element={<NotFoundPage/>} />
         </Routes>
       </MyWrapper>
     </Router>
-    </Provider>
+    </div>
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById("app"));

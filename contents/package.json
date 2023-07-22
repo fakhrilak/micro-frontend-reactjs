@@ -33,7 +33,12 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "axios": "^1.4.0",
+    "joi": "^17.9.2",
+    "modalian": "^0.1.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^7.2.1",
+    "reactjs-popup": "^2.0.5"
   }
 }

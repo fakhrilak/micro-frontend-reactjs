@@ -13,7 +13,7 @@ export const SideBar = () => {
         type :"path",
         payload : "/dashboard"
       })
-      navigate("/dashboard")
+      navigate("/about")
     },[])
   return (
     // <div>Hello world</div>

@@ -6,7 +6,9 @@ const DynamicForm = (props) => {
         let datas = [...props.newItem]
         datas[props.index] = {
             name : props.newItem[props.index].name,
-            value : item
+            value : item,
+            place_holder : props.newItem[props.index].place_holder,
+            type : props.newItem[props.index].type
         }
         props.setNewItem(datas)
         // return(()=>{
@@ -15,10 +17,11 @@ const DynamicForm = (props) => {
     },[item])
 
   return (
-    <div>
+    <div className='mt-5'>
         <p className='text-gray-300'>{props.data.place_holder}</p>
+        {props.data.err && <p className='text-red-500'>{props.data.err}</p>}
         <input
-            className='rounded text-center w-full h-8'
+            className={`rounded text-center w-full h-8 border-2 ${props.data.err ? 'border-red-500' : 'border-white'}`}
             type={props.data.type}
             value={item}
             placeholder={props.data.name}
