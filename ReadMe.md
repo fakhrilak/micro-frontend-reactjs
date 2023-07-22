@@ -7,20 +7,20 @@
     6. Raect Frappe Charts
 
 # PAGES DOCS
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/DashBoard.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/DashBoard.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/Create.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/Create.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/CreateFromModal.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/CreateFromModal.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/Update.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/Update.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/Delet.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/Delet.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/GET.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/GET.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/NextPage.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/NextPage.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/NotFound.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/NotFound.PNG?raw=true)
 
-![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/MicroFrontEnd.png?raw=true)
+![alt text](https://github.com/fakhrilak/micro-frontend-reactjs/blob/master/img/MicroFrontEnd.PNG?raw=true)
